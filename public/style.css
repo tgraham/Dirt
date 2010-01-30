@@ -63,6 +63,12 @@ img {
 	display: block;
 }
 
+img.rss {
+  padding-right: 3px;
+  margin-bottom: -3px;
+  display: inline;
+}
+
 h1 {
   color: #333;
 	font: 300 3em/1 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
