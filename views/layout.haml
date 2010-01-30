@@ -1,0 +1,21 @@
+!!! Strict
+%html{:xmlns => "http://www.w3.org/1999/xhtml", "xml:lang" => "en"}
+  %head
+    %meta{"http-equiv" => "Content-Type", :content => "text/html; charset=utf-8"}/
+    %style{ :type => 'text/css', :media => 'screen' }
+      @import 'style.css';
+    %link{ :rel =>'shortcut icon', :href =>'favicon.ico' }/
+    %title= "DIRT.US - Deal of the Day from Amazon's GoldBox"
+    
+    = yield
+    
+    %p#footnote
+      Powered by the
+      %a{ :href => 'http://www.joyent.com/', :title => 'joyent' } Joyent Cloud
+      , written in
+      %a{ :href => 'http://www.sinatrarb.com/', :title => 'sinatra' } Sinatra
+      , and monitored by
+      %a{ :href => 'http://www.pingdom.com/reports/x5lxetu11ckr/', :title => 'pingdom' } Pingdom
+      %br/
+      &copy;
+      = @time.year

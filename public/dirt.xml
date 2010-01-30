@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>DIRT.US - Deal of the Day from Amazon's GoldBox</title>
+    <link>http://dirt.us</link>
+    <description>Deal of the Day from Amazon's GoldBox</description>
+    <item>
+      <title>Dirt.us Deal of the Day</title>
+      <link>http://dirt.us/</link>
+      <pubDate>Sat, 30 Jan 2010 02:00:08 -0500</pubDate>
+      <dc:date>2010-01-30T02:00:08.736305-05:00</dc:date>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,13 @@
+%body
+  #drop
+  #container
+    #description
+      %h2= @gb.title.gsub('Deal of the Day: ', '')
+      = @gb.description.gsub('_SL75_','_SL500_AA280_').gsub('rssfeeds', 'e0e3').gsub('strike>', 'del>')
+      %h3
+        %a{ :href => @gb.link.gsub('rssfeeds', 'e0e3') } Purchase from Amazon.com
+  
+  #navigation
+    %ul#contact-info
+      %li#resume
+        %a{ :href => '/about' } about this site

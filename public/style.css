@@ -1,0 +1,130 @@
+html {
+  font-size: 14px;
+}
+
+body { 
+	background: #fff;
+	color: #666;
+	font: normal 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0 auto;
+	padding: 0;
+}
+
+a:link, a:active, a:visited {
+	color: #36c;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	background: #36c;
+	color: #f6f6f6;
+}
+
+p {
+	margin: 3em 0;
+}
+
+#drop {
+	margin: 50px 0 0 0;
+}
+
+#navigation {
+  clear: both;
+  margin: 2em 0 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+#container {
+	margin: 0 auto;
+	padding: 0;
+	width: 28em;
+}
+
+#about-container {
+  border: 1px solid #ddd;
+  border-width: 1px 0;
+  margin: 12em auto 3em;
+  text-align: center;
+  padding: 0 3em;
+  width: 28em;
+}
+
+#description {
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+img {
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+}
+
+h1 {
+  color: #333;
+	font: 300 3em/1 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 .last-name {
+	color: #777;
+	font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+	text-align: center;
+	margin: 20px 0 0 0;
+	padding: 0;
+	color: #333;
+	font: 1.75em "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h3 {
+	text-align: center;
+	margin: 20px 0 20px 0;
+	padding: 0;
+	color: #333;
+	font: 1.5em "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#contact-info {
+	list-style-type: none;
+	padding: 0 0 1.5em;
+}
+
+#contact-info li {
+  display: inline;
+  margin: 0 0.5em;
+}
+
+#contact-info li:after { 
+	color: #999;
+	margin-left: 1.25em;
+}
+
+#contact-info li.about:after {
+  color: #999;
+  content: "|";
+  margin-left: 1.25em;
+}
+
+#contact-info li#email:after {
+	content: "";
+	margin: 0;
+}
+
+.note {
+	font-weight: bold;
+	margin: 0.25em;
+}
+
+#footnote {
+	color: #999;
+	font-size: 0.7142857em;
+	margin: 0 auto;
+	padding: 1em 0;
+	text-align: center;
+	width: 35em;
+}
