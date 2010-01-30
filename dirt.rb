@@ -30,7 +30,7 @@ get '/rss' do
 
   i = m.items.new_item
   i.title = gb.title.gsub('Deal of the Day: ', '')
-  i.link = "http://dirt.us/a"
+  i.link = "http://dirt.us"
   i.date = gb.pubDate
   end
 
